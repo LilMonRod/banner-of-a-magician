@@ -31,6 +31,16 @@ body {
   overflow: hidden;
   /* Large devices */
 }
+
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
 @media only screen and (min-width: 900px) {
   body {
     background-image: url("../img/BG/BG-desktop.jpg");
@@ -174,18 +184,6 @@ html {
   .contacto {
     font-size: 1.2rem;
   }
-}
-
-.contacto h4,
-.contacto h5 {
-  margin-top: 1%;
-  margin-bottom: 1%;
-  margin-left: 10%;
-}
-
-.contacto a {
-  margin-left: 10%;
-  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
