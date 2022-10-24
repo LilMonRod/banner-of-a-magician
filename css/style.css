@@ -93,12 +93,13 @@ html {
   font-family: "Cinzel", serif;
   font-family: "Monoton", cursive;
   color: black;
+  text-shadow: 3px 2px 2px #DEDEDE;
 }
 
 .info {
   font-size: 1.5rem;
   font-weight: bold;
-  text-shadow: 2px 2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, -2px -2px 0 #fff, 2px 0px 0 #fff, 0px 2px 0 #fff, -2px 0px 0 #fff, 0px -2px 0 #fff;
+  text-shadow: 3px 2px 2px #FFFFFF;
   color: #000;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -148,11 +149,11 @@ html {
 }
 
 .header__subtitle span:nth-child(2) {
-  animation-delay: 0.4s;
+  animation-delay: 0.3s;
 }
 
 .header__subtitle span:nth-child(4) {
-  animation-delay: 0.8s;
+  animation-delay: 0.6s;
 }
 
 .productora {
