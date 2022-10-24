@@ -51,11 +51,11 @@
     font-size: 1.5rem;
     font-weight: bold;
 
-    text-shadow: 2px 2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, -2px -2px 0 #fff, 2px 0px 0 #fff, 0px 2px 0 #fff, -2px 0px 0 #fff, 0px -2px 0 #fff;
-    color: #000;
+    text-shadow: 0px 0px 3px #ffffff;
+    color: #232323;
 
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 5;
 
@@ -78,12 +78,14 @@
     align-self: center;
     height: 10vw;
     font-size: 1rem;
+    line-height: 1.8rem;
     text-align: center;
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 4;
     grid-row-end: 5;
     justify-self: center;
+    border-radius: 14px;
 
     @media only screen and (min-width: 400px) {
         height: 7vw;
@@ -98,11 +100,11 @@
 }
 
 .header__subtitle span:nth-child(2){
-    animation-delay: .4s;
+    animation-delay: .3s;
 }
 
 .header__subtitle span:nth-child(4){
-    animation-delay: .8s;
+    animation-delay: .6s;
 }
 
 .productora {
@@ -113,10 +115,10 @@
 }
 
 .contacto {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
-    
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  text-shadow: 3px 2px 2px #000000;
 
     @media only screen and (min-width: 400px) {
         font-size: 1.2rem;
@@ -125,12 +127,9 @@
 
 .contacto h4,
 .contacto h5 {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 10%;
+    margin: 0;
 }
 
 .contacto a {
-    margin-left: 10%;
     color: #fff;
 }
