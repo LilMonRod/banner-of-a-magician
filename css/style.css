@@ -41,6 +41,14 @@ body {
     margin-top: 20px;
 }
 
+.contacto h4,
+.contacto h5,
+.contacto a{
+      margin: 0;
+      color: #FFFFFF;
+      text-decoration: none;
+}
+
 @media only screen and (min-width: 900px) {
   body {
     background-image: url("../img/BG/BG-desktop.jpg");
@@ -128,19 +136,21 @@ html {
 }
 
 .cta {
-  background-color: black;
-  color: #fff;
-  text-decoration: none;
-  padding: 5%;
-  align-self: center;
-  height: 10vw;
-  font-size: 1rem;
-  text-align: center;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 5;
-  justify-self: center;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    padding: 5%;
+    align-self: center;
+    height: 10vw;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    justify-self: center;
+    border-radius: 14px;
 }
 @media only screen and (min-width: 400px) {
   .cta {
